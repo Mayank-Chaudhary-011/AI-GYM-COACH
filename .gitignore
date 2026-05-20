@@ -1,6 +1,6 @@
 venv/
 .env
-.streamlit/secrets.toml
+.streamlit/config.toml
 *.mp3
 *.wav
 *.db
