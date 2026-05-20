@@ -59,7 +59,7 @@ def main():
     workout_started = st.session_state.get("workout_started", False)
     
     with st.sidebar:
-        st.title("🏋️‍♂️ Apna AI Coach")
+        st.title("🏋️‍♂️ GYM AI Coach")
 
         if st.session_state.get("voice_pipeline") is None:
             st.warning("Voice coaching is unavailable. Check GROQ_API_KEY and network connectivity.")
